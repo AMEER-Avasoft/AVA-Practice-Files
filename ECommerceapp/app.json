@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ECommerceapp",
+    "slug": "ECommerceapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.ECommerceapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+      {
+        "fonts": ["./Src/Assets/fonts/GreycliffCf/Greycliffcf-regular.otf","./Src/Assets/fonts/GreycliffCf/Greycliffcf-bold.otf","./Src/Assets/fonts/GreycliffCf/Greycliffcf-medium.otf","./Src/Assets/fonts/GreycliffCf/Greycliffcf-demibold.otf","./Src/Assets/fonts/GreycliffCf/Greycliffcf-thin.otf","./Src/Assets/fonts/GreycliffCf/Greycliffcf-light.otf"]
+      }]
+    ]
+  }
+}

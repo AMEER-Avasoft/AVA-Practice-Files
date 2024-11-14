@@ -1,0 +1,130 @@
+import { StyleSheet } from "react-native";
+import {
+  getHeightEquivalent,
+  getWidthEquivalent,
+  fontEq,
+} from "../../Helpers/Utilities/Utilities";
+import { height } from "../../Helpers/Constants/AppConstants";
+
+export const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    height: height,
+    alignItems: "center",
+    backgroundColor: "#ffff",
+  },
+  logo: {
+    height: getHeightEquivalent(50),
+    width: getWidthEquivalent(177.14),
+    marginTop: getHeightEquivalent(43),
+  },
+  titleContainer: {
+    marginTop: getHeightEquivalent(49),
+    height: getHeightEquivalent(32),
+    width: getWidthEquivalent(100),
+  },
+  title: {
+    fontSize: fontEq(32),
+    lineHeight: getHeightEquivalent(31.68),
+    color: "black",
+    alignSelf: "center",
+    fontFamily: "Greycliffcf-demibold",
+  },
+  inputContainer: {
+    height: getHeightEquivalent(74),
+    width: getWidthEquivalent(366),
+    marginTop: getHeightEquivalent(48),
+  },
+  inTextContainer: {
+    flexDirection: "row",
+    marginBottom: getHeightEquivalent(12),
+    justifyContent: "flex-start",
+  },
+  forgotContainer: {
+    height: getHeightEquivalent(22),
+    width: "100%",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    paddingHorizontal: getWidthEquivalent(32),
+    marginTop: getHeightEquivalent(22),
+  },
+  hash: {
+    color: "red",
+    fontSize: fontEq(14),
+    fontWeight: "500",
+  },
+  inputText: {
+    fontSize: fontEq(14),
+    fontFamily: "Greycliffcf-medium",
+    color: "black",
+    marginTop: 3,
+    alignItems: "baseline",
+  },
+  button: {
+    backgroundColor: "#457B9D",
+    height: getHeightEquivalent(48),
+    width: getWidthEquivalent(366),
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: getHeightEquivalent(48),
+  },
+  inputBox: {
+    width: "100%",
+    height: getHeightEquivalent(48),
+    borderRadius: getHeightEquivalent(8.77),
+    borderColor: "#E0E0E0",
+    borderWidth: 1,
+    alignItems: "center",
+    backgroundColor: "#FFFFFF",
+    paddingLeft: getWidthEquivalent(16),
+    flexDirection: "row",
+  },
+  textInput: {
+    fontSize: fontEq(14),
+    fontFamily: "Greycliffcf-regular",
+    height: "100%",
+    color: "black",
+    width: "100%",
+  },
+  eyeContainer: {
+    height: getHeightEquivalent(20),
+    width: getWidthEquivalent(20),
+    marginVertical: getHeightEquivalent(14),
+    marginRight: getWidthEquivalent(16),
+  },
+  forgotText: {
+    fontSize: fontEq(14),
+    fontFamily: "Greycliffcf-demibold",
+    color: "#5298C1",
+    lineHeight: getHeightEquivalent(13.86),
+  },
+  bottomContainer: {
+    flexDirection: "row",
+    width: getWidthEquivalent(199),
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
+    marginTop: getHeightEquivalent(260),
+  },
+  bottomText1: {
+    fontSize: fontEq(14),
+    fontFamily: "Greycliffcf-regular",
+    color: "#ff",
+    lineHeight: getHeightEquivalent(16.8),
+  },
+  buttonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: "#ffffff",
+    fontFamily: "Greycliffcf-demibold",
+    lineHeight: getHeightEquivalent(15.84),
+  },
+  bottomText2: {
+    fontSize: fontEq(14),
+    fontWeight: "400",
+    color: "#5298C1",
+    fontFamily: "Greycliffcf-regular",
+    lineHeight: getHeightEquivalent(17.12),
+  },
+});

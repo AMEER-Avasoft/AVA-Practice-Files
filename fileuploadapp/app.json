@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "fileuploadapp",
+    "slug": "fileuploadapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.fileuploadapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_100Thin_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_100Thin.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_200ExtraLight_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_200ExtraLight.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_300Light_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_300Light.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_400Regular_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_400Regular.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_500Medium_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_500Medium.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_600SemiBold_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_700Bold_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_700Bold.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_800ExtraBold_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_800ExtraBold.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_900Black_Italic.ttf",
+            "node_modules/@expo-google-fonts/public-sans/PublicSans_900Black.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "financeApp",
+    "slug": "financeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.financeApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/poppins/Poppins_100Thin_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_100Thin.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_200ExtraLight_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_200ExtraLight.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_300Light_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_300Light.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_400Regular_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_400Regular.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_500Medium_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_500Medium.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_600SemiBold_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_700Bold_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_700Bold.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_800ExtraBold_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_800ExtraBold.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_900Black_Italic.ttf",
+            "node_modules/@expo-google-fonts/poppins/Poppins_900Black.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}

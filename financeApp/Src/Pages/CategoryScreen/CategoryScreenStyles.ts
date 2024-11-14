@@ -1,0 +1,141 @@
+import { StyleSheet } from "react-native";
+import {
+  fontEq,
+  getHeightEquivalent,
+  getWidthEquivalent,
+} from "../../Helpers/Utilities/Utilities";
+export const styles = StyleSheet.create({
+  mainContainer: {
+    backgroundColor: "#00D09E",
+    flex: 1,
+  },
+  subContainer1: {
+    backgroundColor: "#00D09E",
+    // height: getHeightEquivalent(260),
+    alignItems: "center",
+    marginTop:getHeightEquivalent(60)
+  },
+  headContainer: {
+    width: getWidthEquivalent(354),
+
+    marginTop: getHeightEquivalent(32),
+    marginLeft: getWidthEquivalent(38),
+    marginRight: getWidthEquivalent(36),
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  headText1: {
+    fontSize: fontEq(20),
+    lineHeight: getHeightEquivalent(22),
+    fontFamily: "poppins-semibold",
+    color: "#093030",
+  },
+  headText2: {
+    fontSize: fontEq(14),
+    //lineHeight: getHeightEquivalent(12.88),
+    fontFamily: "poppins-regular",
+  },
+  notificationContainer: {
+    height: getHeightEquivalent(30),
+    width: getHeightEquivalent(30),
+    backgroundColor: "#DFF7E2",
+    borderRadius: 25,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  bodyContainer: {
+    marginTop: getHeightEquivalent(50),
+    flexDirection: "row",
+  },
+  bodyText1: {
+    fontSize: fontEq(12),
+    lineHeight: getHeightEquivalent(18),
+    fontFamily: "poppins-regular",
+    marginLeft: getWidthEquivalent(6),
+  },
+  balanceText: {
+    fontSize: fontEq(24),
+    lineHeight: getHeightEquivalent(36),
+    fontFamily: "poppins-bold",
+    color: "#F1FFF3",
+  },
+  divider: {
+    height: getHeightEquivalent(42),
+    borderColor: "#DFF7E2",
+    borderWidth: 1,
+    marginLeft: getWidthEquivalent(39),
+    marginRight: getWidthEquivalent(33),
+    alignSelf: "center",
+  },
+  progressContainer: {
+    height: getHeightEquivalent(27),
+    width: getWidthEquivalent(330),
+    backgroundColor: "#052224",
+    borderRadius: 13.5,
+    marginTop: getHeightEquivalent(12),
+    justifyContent: "space-between",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  progressText1: {
+    fontSize: fontEq(12),
+    fontFamily: "poppins-regular",
+    color: "#F1FFF3",
+    marginLeft: getWidthEquivalent(31),
+  },
+  inProgressContainer: {
+    height: "100%",
+    width: getWidthEquivalent(261),
+    backgroundColor: "#F1FFF3",
+    borderRadius: 13.5,
+    justifyContent: "center",
+    alignItems: "flex-end",
+  },
+  progressText2: {
+    fontSize: fontEq(13),
+    fontFamily: "poppins-semibold",
+    color: "#052224",
+    marginRight: getWidthEquivalent(14),
+  },
+  descriptionText: {
+    fontSize: fontEq(15),
+    fontFamily: "poppins-regular",
+    color: "#052224",
+    marginLeft: getWidthEquivalent(10),
+  },
+  subContainer2: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 70,
+    overflow: "hidden",
+    backgroundColor: "#F1FFF3",
+    paddingTop: getHeightEquivalent(33),
+    marginTop: getHeightEquivalent(21),
+  },
+  gridContainer: {
+    flex: 1,
+    width: getWidthEquivalent(357),
+    alignSelf: "center",
+    justifyContent: "space-between",
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  elementContainer: {
+    width: getWidthEquivalent(109),
+  },
+  IconContainer: {
+    height: getHeightEquivalent(97.63),
+    width: getWidthEquivalent(105),
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 25.79,
+  },
+  elementText: {
+    fontSize: fontEq(15),
+    lineHeight: getHeightEquivalent(22.5),
+    fontFamily: "poppins-medium",
+    alignSelf: "center",
+    marginTop: getHeightEquivalent(2.37),
+  },
+});
